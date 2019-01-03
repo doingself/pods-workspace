@@ -1,8 +1,8 @@
 //
 //  HomeIntSectionController.swift
-//  TextureChat
+//  Demo1
 //
-//  Created by CityFruit on 2019/1/2.
+//  Created by 623971951 on 2019/1/2.
 //  Copyright © 2019 test. All rights reserved.
 //
 

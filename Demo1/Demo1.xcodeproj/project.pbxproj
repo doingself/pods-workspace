@@ -25,10 +25,10 @@
 		E028958021DDBEAF00826029 /* TabIndexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028957321DDBEAF00826029 /* TabIndexCollectionViewCell.swift */; };
 		E028958121DDBEAF00826029 /* TabIndexCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028957421DDBEAF00826029 /* TabIndexCollectionReusableView.swift */; };
 		E028958221DDBEAF00826029 /* TabIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028957521DDBEAF00826029 /* TabIndexViewController.swift */; };
-		E028958921DDBF4E00826029 /* HomeIntSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028958521DDBF4E00826029 /* HomeIntSectionController.swift */; };
-		E028958A21DDBF4E00826029 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028958621DDBF4E00826029 /* HomeViewController.swift */; };
-		E028958B21DDBF4E00826029 /* HomeStrSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028958721DDBF4E00826029 /* HomeStrSectionController.swift */; };
-		E028958C21DDBF4E00826029 /* HomeDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028958821DDBF4E00826029 /* HomeDiffable.swift */; };
+		E028959B21DDD4C200826029 /* HomeIntSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028959721DDD4C200826029 /* HomeIntSectionController.swift */; };
+		E028959C21DDD4C200826029 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028959821DDD4C200826029 /* HomeViewController.swift */; };
+		E028959D21DDD4C200826029 /* HomeStrSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028959921DDD4C200826029 /* HomeStrSectionController.swift */; };
+		E028959E21DDD4C200826029 /* HomeDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028959A21DDD4C200826029 /* HomeDiffable.swift */; };
 		FBB4D47E4030217713AE987F /* Pods_Demo1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7494BEFB6537F87DF33208 /* Pods_Demo1.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,10 +56,10 @@
 		E028957321DDBEAF00826029 /* TabIndexCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabIndexCollectionViewCell.swift; sourceTree = "<group>"; };
 		E028957421DDBEAF00826029 /* TabIndexCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabIndexCollectionReusableView.swift; sourceTree = "<group>"; };
 		E028957521DDBEAF00826029 /* TabIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabIndexViewController.swift; sourceTree = "<group>"; };
-		E028958521DDBF4E00826029 /* HomeIntSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeIntSectionController.swift; sourceTree = "<group>"; };
-		E028958621DDBF4E00826029 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E028958721DDBF4E00826029 /* HomeStrSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStrSectionController.swift; sourceTree = "<group>"; };
-		E028958821DDBF4E00826029 /* HomeDiffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDiffable.swift; sourceTree = "<group>"; };
+		E028959721DDD4C200826029 /* HomeIntSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeIntSectionController.swift; sourceTree = "<group>"; };
+		E028959821DDD4C200826029 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E028959921DDD4C200826029 /* HomeStrSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStrSectionController.swift; sourceTree = "<group>"; };
+		E028959A21DDD4C200826029 /* HomeDiffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDiffable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				E028955421DDB6B600826029 /* AppDelegate.swift */,
-				E028958421DDBF4E00826029 /* Home */,
+				E028959621DDD4C200826029 /* Home */,
 				E028956621DDBEAF00826029 /* AsyncDisplayKitDemo */,
 				E028956921DDBEAF00826029 /* IGListKitDemo */,
 				E028957221DDBEAF00826029 /* MYTableViewIndexDemo */,
@@ -160,16 +160,15 @@
 			path = MYTableViewIndexDemo;
 			sourceTree = "<group>";
 		};
-		E028958421DDBF4E00826029 /* Home */ = {
+		E028959621DDD4C200826029 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E028958521DDBF4E00826029 /* HomeIntSectionController.swift */,
-				E028958621DDBF4E00826029 /* HomeViewController.swift */,
-				E028958721DDBF4E00826029 /* HomeStrSectionController.swift */,
-				E028958821DDBF4E00826029 /* HomeDiffable.swift */,
+				E028959721DDD4C200826029 /* HomeIntSectionController.swift */,
+				E028959821DDD4C200826029 /* HomeViewController.swift */,
+				E028959921DDD4C200826029 /* HomeStrSectionController.swift */,
+				E028959A21DDD4C200826029 /* HomeDiffable.swift */,
 			);
-			name = Home;
-			path = ../../../cityfruit/TextureChat/TextureChat/Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,16 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E028958C21DDBF4E00826029 /* HomeDiffable.swift in Sources */,
-				E028958B21DDBF4E00826029 /* HomeStrSectionController.swift in Sources */,
+				E028959E21DDD4C200826029 /* HomeDiffable.swift in Sources */,
+				E028959D21DDD4C200826029 /* HomeStrSectionController.swift in Sources */,
 				E028958221DDBEAF00826029 /* TabIndexViewController.swift in Sources */,
 				E028957F21DDBEAF00826029 /* MixedDataViewController.swift in Sources */,
 				E028957D21DDBEAF00826029 /* UserSectionController.swift in Sources */,
-				E028958A21DDBF4E00826029 /* HomeViewController.swift in Sources */,
+				E028959C21DDD4C200826029 /* HomeViewController.swift in Sources */,
 				E028957C21DDBEAF00826029 /* GridItem.swift in Sources */,
 				E028955721DDB6B600826029 /* ViewController.swift in Sources */,
 				E028957A21DDBEAF00826029 /* CenterLabelCell.swift in Sources */,
-				E028958921DDBF4E00826029 /* HomeIntSectionController.swift in Sources */,
+				E028959B21DDD4C200826029 /* HomeIntSectionController.swift in Sources */,
 				E028957721DDBEAF00826029 /* AsyncDisplayKitDemoTableViewCell.swift in Sources */,
 				E028958121DDBEAF00826029 /* TabIndexCollectionReusableView.swift in Sources */,
 				E028958021DDBEAF00826029 /* TabIndexCollectionViewCell.swift in Sources */,
